@@ -5,3 +5,7 @@
   --primary-font: #ffffff;
   --secondary-font: #1a1519;
 }
+.bg {
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+}
