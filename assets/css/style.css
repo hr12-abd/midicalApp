@@ -1,10 +1,11 @@
 :root {
-  --primary-c: #1c5a41;
-  --secondary-c: #2a8f68;
-  --third-c: #5aaf76;
-  --forth-c:#b4e6cc;
-  --primary-font: #ffffff;
-  --secondary-font: #1a1519;
-  --primary-bg :#cfd5db;
+  --primary-bg: #634f5f;
+  --secondry-bg: #7f667a;
+  --third-bg: #998094;
+  --forth-bg: #ddd5db;
+  --font-p: #ffffff;
 }
 
+.side {
+  background: var(--primary-bg);
+}

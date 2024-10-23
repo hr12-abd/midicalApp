@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg nav-c p-3 ">
+<nav class="navbar navbar-expand-lg  p-3 ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">المجمع الطبي</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"

@@ -11,15 +11,13 @@
 
 <body>
    <main>
-      <?php
-      include('nav.php');
-      ?>
-      <div class="container-fluid ">
+      
+      <div class="container-fluid m-0">
          <div class="row w-100 d-flex justify-content-between">
-            <div class="col-3 side rounded  m-2 p-5">
+            <div class="col-3 side h-100  m-2 p-5">
 
             </div>
-            <div class="col-8">
+            <div class="col-8 hero ">
                <div class="row w-100 d-flex justify-content-around">
                   <div class="col-12">
                      <p>jhjh</p>
