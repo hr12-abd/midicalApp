@@ -14,7 +14,7 @@
       <?php
       include('nav.php');
       ?>
-      <div class="container-fluid hero">
+      <div class="container-fluid ">
          <div class="row w-100 d-flex justify-content-between">
             <div class="col-3 side rounded  m-2 p-5">
 
@@ -25,60 +25,6 @@
                      <p>jhjh</p>
                      <hr class="w-100">
                   </div>
-                  <div class="col-3  p-3 d-flex flex-column justify-content-between align-items-center">
-                     <div class="octagon d-flex justify-content-center">
-                        <div class="octagon-content d-flex justify-content-center flex-column align-content-center">
-                           <p>hgfffyhgujhui</p>
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="col-3   p-3 d-flex flex-column justify-content-between align-items-center ">
-                     <div class="octagon">
-                        <div class="octagon-content">
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-3   p-3 d-flex flex-column justify-content-between align-items-center ">
-                     <div class="octagon">
-                        <div class="octagon-content">
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-3   p-3 d-flex flex-column justify-content-between align-items-center ">
-                     <div class="octagon">
-                        <div class="octagon-content">
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-3   p-3 d-flex flex-column justify-content-between align-items-center ">
-                     <div class="octagon">
-                        <div class="octagon-content">
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-3   p-3 d-flex flex-column justify-content-between align-items-center ">
-                     <div class="octagon">
-                        <div class="octagon-content">
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-3   p-3 d-flex flex-column justify-content-between align-items-center ">
-                     <div class="octagon">
-                        <div class="octagon-content">
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-3   p-3 d-flex flex-column justify-content-between align-items-center ">
-                     <div class="octagon">
-                        <div class="octagon-content">
-                        </div>
-                     </div>
-                  </div>
-                 
-                
-                  
-                 
                </div>
             </div>
          </div>
