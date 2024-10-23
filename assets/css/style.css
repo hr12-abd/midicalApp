@@ -2,10 +2,68 @@
   --primary-c: #1c5a41;
   --secondary-c: #2a8f68;
   --third-c: #5aaf76;
+  --forth-c:#b4e6cc;
   --primary-font: #ffffff;
   --secondary-font: #1a1519;
+  --primary-bg :#cfd5db;
 }
-.bg {
-    background-image: url(../images/1.jpg);
-    background-size: cover;
+
+.nav-c {
+  background-color: var(--primary-c);
+  color: var(--primary-font);
+
+}
+.hero {
+  background-color:var(--primary-bg);
+  height: 100vh;
+}
+.glass {
+  background: var(--secondary-c); /* Semi-transparent white */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: a border to enhance glass look */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners for a smooth look */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+.octagon {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* This maintains a 1:1 aspect ratio for responsiveness */
+  /*background: linear-gradient(190deg, var(--secondary-c), var(--third-c), var(--primary-font)); /* Gradient color */
+  background-color:var(--primary-font);
+  clip-path: polygon(
+    30% 0%, 70% 0%, 
+    100% 30%, 100% 70%, 
+    70% 100%, 30% 100%, 
+    0% 70%, 0% 30%
+  );
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.octagon-content {
+  color: white;
+  font-size: 1.2em;
+  position: absolute; /* To keep the content centered and on top */
+  top: 50%; /* Move down 50% from the top */
+  left: 50%; /* Move right 50% from the left */
+  transform: translate(-50%, -50%); /* Adjust position to truly center */
+  width: 100%; /* Fill the parent */
+  height: 100%; /* Fill the parent */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.badge {
+  z-index: 99;
+}
+.side {
+  background-color:var(--primary-font);
+  height: 100vh;
+  
+  border-radius:25%;
 }
