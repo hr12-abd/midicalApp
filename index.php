@@ -15,7 +15,11 @@
       <div class="container-fluid m-0">
          <div class="row w-100 d-flex justify-content-between">
             <div class="col-3 side h-100  m-2 p-5">
-
+             <ul class="nav nav-pills flex-column mb-auto">
+             <li>
+               الرئيسية
+             </li>
+             </ul>
             </div>
             <div class="col-8 hero ">
                <div class="row w-100 d-flex justify-content-around">
